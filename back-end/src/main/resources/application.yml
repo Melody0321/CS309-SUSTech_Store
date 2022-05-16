@@ -1,0 +1,8 @@
+prop:
+  upload-folder: E:\-\CS309\Project\front-end\src\images\\
+# 配置SpringMVC文件上传限制，默认1M。注意MB要大写，不然报错。SpringBoot版本不同，配置项不同
+spring:
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
